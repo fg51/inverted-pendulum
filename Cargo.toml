@@ -1,6 +1,6 @@
 [package]
 name = "inverted-pendulum"
-version = "0.0.1-develop"
+version = "0.0.2-develop"
 authors = ["kflange <zknsftk1msrk@gmail.com>"]
 edition = "2018"
 publish = false
@@ -11,3 +11,8 @@ publish = false
 anyhow = "1"
 nalgebra = "0.26"
 thiserror = "1"
+
+[[example]]
+name = "freefall"
+test = false
+bench = false
