@@ -16,3 +16,14 @@ thiserror = "1"
 name = "freefall"
 test = false
 bench = false
+
+[[example]]
+name = "osc-ref"
+test = false
+bench = false
+
+[[example]]
+name = "osc"
+test = false
+bench = false
+
